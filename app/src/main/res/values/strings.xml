@@ -1,0 +1,136 @@
+<resources>
+
+    <!--App Name-->
+    <string name="app_name">Smart Parker</string>
+
+    <!--Login Activity-->
+    <string name="string_login_input_hint_email">Email or mobile number</string>
+    <string name="string_login_input_hint_password">Password</string>
+    <string name="string_login_tv_forgot">Forgot your password?</string>
+    <string name="string_login_tv_login">Log in</string>
+    <string name="string_login_tv_not_registered">Not registered ?</string>
+    <string name="string_login_tv_register">Register</string>
+    <string name="string_login_tv_popup_message">Invalid Credentials</string>
+    <string name="string_login_tv_popup_back">Back</string>
+
+    <!--Recovery Activity-->
+    <string name="string_recovery_input_hint_email">Email or mobile number</string>
+    <string name="string_recovery_input_hint_answer">The answer to the recovery question</string>
+    <string name="string_recovery_input_hint_password">Password</string>
+    <string name="string_recovery_input_hint_re_password">Repeat password</string>
+    <string name="string_recovery_tv_show">Show recovery question</string>
+    <string name="string_recovery_tv_recover">Recover</string>
+    <string name="string_recovery_tv">Enter new password</string>
+    <string name="string_recovery_tv_save">Reset Password</string>
+    <string name="string_recovery_tv_back">Back</string>
+    <string name="string_recovery_tv_popup_message_email">The email or mobile number was entered incorrectly</string>
+    <string name="string_recovery_tv_popup_message_question">There is no security question for the desired parking lot.</string>
+    <string name="string_recovery_tv_popup_message_answer">The answer to the security question is not correct.</string>
+    <string name="string_recovery_tv_popup_message_result">The desired parking password has been changed.</string>
+    <string name="string_recovery_tv_popup_back">Back</string>
+    <string name="string_recovery_tv_popup_confirm">Confirm</string>
+
+    <!--Register Activity-->
+    <string name="string_register_input_hint_email">Email or mobile number</string>
+    <string name="string_register_input_hint_name">The name of the parking lot</string>
+    <string name="string_register_input_hint_capacity">Parking capacity</string>
+    <string name="string_register_input_hint_charge_base">Fixed parking fee</string>
+    <string name="string_register_input_hint_charge_extra">Excess cost per hour</string>
+    <string name="string_register_input_hint_password">Password</string>
+    <string name="string_register_input_hint_re_password">Repeat Password</string>
+    <string name="string_register_input_hint_question">Security Question</string>
+    <string name="string_register_input_hint_answer">Answer the security question</string>
+    <string name="string_register_tv_register">Register</string>
+    <string name="string_register_tv_registered">Have you registered your parking space?</string>
+    <string name="string_register_tv_login">Log In</string>
+    <string name="string_register_tv_popup_question">A parking lot with the entered email or mobile number has already been registered.\nWould you like to enter the parking lot?</string>
+    <string name="string_register_tv_popup_login">Register Parking lot</string>
+    <string name="string_register_tv_popup_register">Ok</string>
+
+    <!--Recovery Questions List-->
+    <string name="string_list_recovery_questions_1">What was your third grade teachers last name?</string>
+    <string name="string_list_recovery_questions_2">What is the first and last name of your oldest cousin?</string>
+    <string name="string_list_recovery_questions_3">What is your favorite music genre?</string>
+    <string name="string_list_recovery_questions_4">What is the name of the high school you graduated from?</string>
+    <string name="string_list_recovery_questions_5">What is your favorite movie?</string>
+
+    <!--Parking Activity-->
+    <string name="string_parking_menu_logout">Exit</string>
+    <string name="string_parking_menu_edit">Edit parking</string>
+    <string name="string_parking_menu_report">Recent month report</string>
+    <string name="string_parking_tv_status_title">Parking situation</string>
+    <string name="string_parking_tv_status_free">Vacant parking space:</string>
+    <string name="string_parking_tv_status_occupied">Occupied parking space:</string>
+    <string name="string_parking_tv_enter">Register</string>
+    <string name="string_parking_tv_exit">Exit Car</string>
+    <string name="string_parking_tv_popup_message_enter">The parking lot is completely full.</string>
+    <string name="string_parking_tv_popup_message_exit">There is no car to leave in the parking lot.</string>
+    <string name="string_parking_tv_popup_back">Back</string>
+
+    <!--Edit Activity-->
+    <string name="string_edit_title">Edit parking</string>
+    <string name="string_edit_input_hint_email">Email or mobile number</string>
+    <string name="string_edit_input_hint_name">The name of the parking lot</string>
+    <string name="string_edit_input_hint_capacity">Parking capacity</string>
+    <string name="string_edit_input_hint_charge_base">Fixed parking fee</string>
+    <string name="string_edit_input_hint_charge_extra">Excess cost per hour</string>
+    <string name="string_edit_input_hint_password">Password</string>
+    <string name="string_edit_input_hint_re_password">Repeat Password</string>
+    <string name="string_edit_input_hint_question">Security question</string>
+    <string name="string_edit_input_hint_answer">Answer the security question</string>
+    <string name="string_edit_tv_edit">Edit</string>
+    <string name="string_edit_tv_popup_message">The email or mobile number entered has already been registered.</string>
+    <string name="string_edit_tv_popup_back">Back</string>
+    <string name="string_edit_tv_popup_question">Would you like to edit parking information?</string>
+    <string name="string_edit_tv_popup_edit">Edit parking</string>
+    <string name="string_edit_tv_popup_no">Ok</string>
+    <string name="string_edit_tv_popup_message_result">The desired parking information was edited.</string>
+    <string name="string_edit_tv_popup_confirm">Confirm</string>
+
+    <!--Report Activity-->
+    <string name="string_report_title">Recent month report</string>
+    <string name="string_report_tv_entered">Number of incoming cars</string>
+    <string name="string_report_tv_exited">Number of outgoing cars</string>
+    <string name="string_report_tv_income">Parking Income per month</string>
+    <string name="string_report_tv_income_rial">Rs</string>
+
+    <!--Enter Activity-->
+    <string name="string_enter_title">Log In</string>
+    <string name="string_enter_tv_plate_title">License Plate</string>
+    <string name="string_enter_input_hint_plate_iran">India</string>
+    <string name="string_enter_input_hint_model">Car type</string>
+    <string name="string_enter_input_hint_name">Enter Name</string>
+    <string name="string_enter_input_hint_phone">Mobile Number</string>
+    <string name="string_enter_tv_enter">Log in</string>
+    <string name="string_enter_tv_popup_question_exists">The desired car is in the parking lot \nWould you like to register another car</string>
+    <string name="string_enter_tv_popup_question">Vehicle entry has been successfully registered \nWould you like to register another vehicle</string>
+    <string name="string_enter_tv_popup_yes">Yes ! Register</string>
+    <string name="string_enter_tv_popup_no">No</string>
+
+    <!--Exit Activity-->
+    <string name="string_exit_title">Exit registration</string>
+    <string name="string_exit_tv_search_title">Car search</string>
+    <string name="string_exit_input_hint_plate_iran">India</string>
+    <string name="string_exit_input_hint_name">Enter Name of the Car</string>
+    <string name="string_exit_tv_search">Search</string>
+    <string name="string_exit_tv_popup_date_title">Date of entering the parking lot:</string>
+    <string name="string_exit_tv_popup_time_title">Duration of stay in the parking lot:</string>
+    <string name="string_exit_tv_popup_time_hour">Time</string>
+    <string name="string_exit_tv_popup_charge_title">Parking fee: </string>
+    <string name="string_exit_tv_popup_charge_rial"> Rs</string>
+    <string name="string_exit_tv_popup_question">Do you want to register the car exit?</string>
+    <string name="string_exit_tv_popup_yes">Exit the car</string>
+    <string name="string_exit_tv_popup_no">Ok</string>
+    <string name="string_exit_tv_popup_result_title_error">A car with the entered specifications was not found in the parking lot.</string>
+    <string name="string_exit_tv_popup_result_title">Vehicle exit was registered successfully</string>
+    <string name="string_exit_tv_popup_result_confirm">Confirm</string>
+
+    <!--Exit Activity List-->
+    <string name="string_list_exit_tv_plate_title">License Plate</string>
+    <string name="string_list_exit_input_hint_plate_iran">India</string>
+    <string name="string_list_exit_input_hint_model">Car Type</string>
+    <string name="string_list_exit_input_hint_name">Enter Model Name</string>
+    <string name="string_list_exit_input_hint_phone">Mobile Number</string>
+    <string name="string_list_exit_tv_exit">Exit Registration</string>
+
+</resources>
